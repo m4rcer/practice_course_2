@@ -105,5 +105,12 @@ namespace practice_course_2
                 MessageBox.Show("Необходимо выбрать запись");
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var graphicsForm = new GraphicForm();
+
+            graphicsForm.ShowDialog();
+        }
     }
 }

@@ -42,6 +42,7 @@
             this.avgPopulationBtn = new System.Windows.Forms.Button();
             this.deleteDtn = new System.Windows.Forms.Button();
             this.updateBtn = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -191,12 +192,24 @@
             this.updateBtn.UseVisualStyleBackColor = true;
             this.updateBtn.Click += new System.EventHandler(this.updateBtn_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(1069, 331);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(245, 61);
+            this.button1.TabIndex = 8;
+            this.button1.Text = "Графики";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1328, 666);
             this.Controls.Add(this.updateBtn);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.deleteDtn);
             this.Controls.Add(this.avgPopulationBtn);
             this.Controls.Add(this.minPopulationBtn);
@@ -231,6 +244,7 @@
         private System.Windows.Forms.Button avgPopulationBtn;
         private System.Windows.Forms.Button deleteDtn;
         private System.Windows.Forms.Button updateBtn;
+        private System.Windows.Forms.Button button1;
     }
 }
 
