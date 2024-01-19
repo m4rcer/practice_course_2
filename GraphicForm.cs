@@ -47,7 +47,7 @@ namespace practice_course_2
             List<string> date2 = new List<string>(); //здесь будут храниться значения для оси X
             foreach (var item in districts) //Заполняем коллекции
             {
-                zp2.Add(item.population);
+                zp2.Add(item.population / 1000);
                 date2.Add(item.name);
             }
             cartesianChart2.AxisX.Clear(); //Очищаем ось X от значений по умолчанию
